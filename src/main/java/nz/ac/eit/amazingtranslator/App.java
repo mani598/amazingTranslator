@@ -15,5 +15,6 @@ public class App
         String numberToTranslateInString=scan.nextLine();
         int numberToTranslate=Integer.parseInt(numberToTranslateInString);
         System.out.println("The number to translate is:"+numberToTranslate);
+        System.out.println("Hellllooooooo  :)");
     }
 }
