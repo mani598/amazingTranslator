@@ -10,8 +10,8 @@ import java.util.Scanner;
 public class App 
 {
 
-    static Hashtable<Integer, String> frenchTranslations= new Hashtable<>();
-    static Hashtable<Integer, String> germanTranslations= new Hashtable<>();
+    private static Hashtable<Integer, String> frenchTranslations= new Hashtable<>();
+    private static Hashtable<Integer, String> germanTranslations= new Hashtable<>();
 
     private static void setupTranslations() {
         frenchTranslations.put(1, "un");
